@@ -212,23 +212,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 6rem;
     padding: 0 3rem;
 }
 
 .hero-text {
-    flex: 1;
+    flex: 0 0 55%;
     text-align: left;
 }
 
 /* ===== Profile Image Styles ===== */
 .hero-image-container {
-    flex-shrink: 0;
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero-profile-image {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid var(--accent-color);
