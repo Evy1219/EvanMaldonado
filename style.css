@@ -232,11 +232,13 @@ body {
     width: 400px;
     height: 400px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
+    background: var(--primary-color);
     border: 5px solid var(--accent-color);
     box-shadow: 0 20px 60px rgba(100, 255, 218, 0.3);
     transition: var(--transition-smooth);
     animation: float-image 6s ease-in-out infinite;
+    padding: 20px;
 }
 
 .hero-profile-image:hover {
