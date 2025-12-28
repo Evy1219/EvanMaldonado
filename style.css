@@ -907,6 +907,10 @@ section {
         display: flex;
     }
 
+    .hero {
+        padding-top: 100px;
+    }
+
     .hero-content {
         flex-direction: column-reverse;
         text-align: center;
